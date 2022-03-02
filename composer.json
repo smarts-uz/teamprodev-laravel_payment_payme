@@ -1,0 +1,22 @@
+{
+"name": "teamprodev/laravel-payment-payme",
+"authors": [
+{
+"name": "Asadbekinha",
+"email": "fayzulloevasadbek@gmail.com"
+}
+],
+"license": "MIT",
+"extra": {
+"laravel": {
+"providers": [
+"Teamprodev\\LaravelPaymentPayme\\Providers\\PaycomPaymentProvider"
+]
+}
+},
+"autoload": {
+"psr-4": {
+"Teamprodev\\LaravelPaymentPayme\\": "src/"
+}
+}
+}
