@@ -7,7 +7,7 @@ Route::group([
     'middleware' => 'web',
     'prefix' => 'paycom',
     'as' => 'paycom.',
-    'namespace' => 'Asadbek\Paycom\Http\Controllers'
+    'namespace' => 'Teamprodev\LaravelPaymentPayme\Http\Controller'
 ], function () {
 
     Route::post('pay', [PaycomController::class,'index'])->name('pay');
